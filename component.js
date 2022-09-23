@@ -26,7 +26,7 @@ app.component('mycomponent', {
 					</td>
 					</tr>
 			</tbody>
-		</table>{{products}}
+		</table>
 	`,
 	data() {
 		return {
