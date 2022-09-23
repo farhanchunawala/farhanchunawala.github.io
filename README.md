@@ -1,2 +1,0 @@
-# MyRepository
-my git MyRepository
