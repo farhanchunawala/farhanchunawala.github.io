@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+.myInput {
+	/*background-image: url('/css/searchicon.png');*/
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 120px;
+	font-size: 16px;
+	padding: 5px 5px;
+	border: 0px solid #ddd;
+	margin-bottom: 0px;
+}
+
+#myUL {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 120px;
+}
+
+#myUL li a {
+	border: 1px solid #ddd;
+	margin-top: -1px; /* Prevent double borders */
+	background-color: #f6f6f6;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	display: block
+}
+
+#myUL li a:hover:not(.header) {
+	background-color: #eee;
+}
